@@ -19,7 +19,8 @@
 - Для работы с проектом необходимо установить Docker и Docker-compose:
 
 ```commandline
-    pip install docker.io 
+    pip install docker
+    pip install docker-compose
 ```
 
 - Создать и запустить контейнеры Docker, выполнить команду (версии команд "docker compose" или "docker-compose" отличаются в зависимости от установленной версии Docker Compose):
