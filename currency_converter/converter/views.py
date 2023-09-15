@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from .parser import calc_rate
+from .services import calc_rate
 
 
 def index(request):

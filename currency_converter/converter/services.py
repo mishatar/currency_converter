@@ -21,7 +21,7 @@ def calc_rate(from_currency, to_currency, value) -> float:
     except:
         ValueError("Неправильно введенна сумма для перевода")
     
-    result_num = value * rate
+    result_num: float = value * rate
     return round(result_num, 2)
 
 
