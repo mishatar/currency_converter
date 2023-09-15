@@ -14,12 +14,12 @@
 
 - Склонировать репозиторий
 ```commandline
-git clone https://github.com/mishatar/currency_converter.git
+    git clone https://github.com/mishatar/currency_converter.git
 ```
 - Для работы с проектом необходимо установить Docker и Docker-compose:
 
 ```commandline
-sudo apt install docker.io 
+    pip install docker.io 
 ```
 
 - Создать и запустить контейнеры Docker, выполнить команду (версии команд "docker compose" или "docker-compose" отличаются в зависимости от установленной версии Docker Compose):
